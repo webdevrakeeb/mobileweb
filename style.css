@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.logo-menu {
+  background: rgba(220,202,100);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-30 {
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-70 {
+  width: 70%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-logo {
+  color: #fff;
+}
+
+.drop-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav {
+  text-align: center;
+}
+
+.drop-menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.drop-menu ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.drop-menu ul li a:hover {
+  background: orange;
+}
+
+/* Dropdown menu css */
+.drop-menu ul ul {
+  position: absolute;
+  display: none;
+}
+
+.drop-menu ul ul li {
+  display: block;
+  width: 250px;
+  background: rgba(156,140,0,0.8);
+}
+
+.drop-menu ul li:hover ul {
+  display: block;
+}
+
+/*Text Content Area Css*/
+.text-cnt {
+  background: rgba(200,180,100,0.2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-cnt p {
+  margin: 0;
+  text-align: justify;
+}
+
+/*Area 50% CSS*/
+.area-50 {
+  background: rgba(180,250,0,0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-50 {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.single-service {
+  background: rgba(100,100,100,0.8);
+  padding: 15px;
+}
+
+.single-service img {
+  width: 100%;
+}
+
+.single-service h3 {
+  margin-bottom: 0;
+}
+
+.single-service p {
+  margin-top: 0;
+}
+
+.single-service a {
+  width: 180px;
+  height: 45px;
+  background: green;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.service-area {
+  background: rgba(127,172,163);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-25 {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.single-serv {
+  background: rgb(100,100,100);
+  padding: 15px;
+}
+
+.serv-img img {
+  width: 100%;
+  height: 150px;
+}
+
+.single-serv p {
+  margin-top: 0;
+}
+
+.single-serv a {
+  width: 80px;
+  height: 30px;
+  background: rgb(55,55,55);
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.serv-img {
+  background: #fff;
+  text-align: center;
+  padding: ;
+}
+
+/*Meet My Team Area*/
+.team-area {
+  background: rgb(205,205,0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.single-member {
+  background: rgb(165,227,0);
+  padding: 15px;
+}
+
+.mem-dtls h3 {
+  margin-bottom: 0;
+}
+
+/*Contact Area CSS*/
+.contact-area {
+  background: rgb(187,228,0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-dtls {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.g-map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.copy-right {
+  background: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copy-right p {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width:767px) {
+.col-50 {
+  width: 100%;
+}
+  
+.nav {
+  display: none;
+}
+
+.drop-menu ul ul {
+  right: 100%;
+  top: 0;
+}
+
+.drop-menu ul {
+  float: right;
+}
+
+.drop-menu ul li {
+  display: block;
+}
+
+.mobile-menu-icon {
+  display: block;
+  color: #000;
+  font-size: 45px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.area-50 h2 {
+  font-size: 20px;
+}
+
+.col-25 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-dtls ul {
+  padding: 0;
+}
+
+.copy-right p {
+  font-size: 17px;
+}
+  
+  
+  
+}
